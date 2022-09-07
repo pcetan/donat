@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, inital-scale=1.0">
+		<meta name="author" content="AnitaP">
+		<meta name="description" content="">
+		<title>Katalog|Škola stranih jezika-Donat</title>
+		<link href="style.css" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
+    </head>
+	<body>
+		<div class="grid page-container"> 
+				<div class="grid page-header">
+				<nav class="site-navigation">
+					<div class="nav-btn">
+						<img src="slike/doodle/menu.png" alt="menu-bar">
+					</div>
+					
+					<!--.nav-btn/end-->
+					<ul>
+						<li><a href="index.html">Naslovnica</a></li>
+						<li class="btn2"><a href="ponuda.html">Ponuda <!--&#9727;--></a>
+						
+							<!--<ul class="ponuda">
+								<li><a href="ponuda.html #kids">Tečajevi za djecu</a></li>
+								<li><a href="ponuda.html #adult">Tečajevi za odrasle</a></li>
+								<li><a href="ponuda.html #online">Online tečajevi</a></li>
+							</ul>-->
+						</li>
+						
+						<li class="current"><a href="katalog.html">Katalog</a></li>
+						<li><a href="cjenik.html">Cjenik</a></li>
+						<li><a href="kontakt.html">Kontakt</a></li>
+					</ul>
+					<a href="#" class="top"><img src="slike/doodle/up-arrow.png" alt="up-arrow"></a>
+				</nav>
+				<!--.site-navigation/end-->
+			 </div>
+			 <!--page-header/end-->
+			 
+		<header class="site-title">
+			<h1>Škola stranih jezika <br>donat</h1>
+		</header>
+			<!--.site-title/end-->
+			
+			<main class="grid primary katalog-page">
+				<h2>Upravo upisujemo!</h2>
+				
+			<article class="post">
+				<img src="slike/ital-flag.jpg" alt="talijanska zastava">
+				<h2>Online tečaj talijanskog jezika</h2>
+				<p>Vivamus venenatis neque ut libero dictum iaculis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean et sapien sem</p>
+				<p><a href="kontakt.html" >Upiši se!</a></p>
+				
+				<p><a href="cjenik.html">Cjenik</a></p>
+			</article> 
+			<article class="post">
+				<img src="slike/uk-flag.jpg" alt="uk zastava">
+				<h2>Tečaj engleskog jezika za djecu</h2>
+				<p>Vivamus venenatis neque ut libero dictum iaculis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean et sapien sem</p>
+				<p><a href="kontakt.html">Upiši se!</a></p>
+				<p><a href="cjenik.html">Cjenik</a></p>
+			</article>		
+			<article class="post">
+				<img src="slike/zastava.jpg" alt="njemacka zastava">
+				<h2>Ubrzani tečaj njemačkog jezika</h2>
+				<p>Vivamus venenatis neque ut libero dictum iaculis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean et sapien sem</p>
+				<p><a href="kontakt.html">Upiši se!</a></p>
+				<p><a href="cjenik.html">Cjenik</a></p>
+			</article>
+			<article class="post">
+				<img src="slike/french-flag.jpg" alt="francuska zastava">
+				<h2>Napredni tečaj francuskog jezika za odrasle</h2>
+				<p>Vivamus venenatis neque ut libero dictum iaculis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean et sapien sem</p>
+			<p>	<a href="kontakt.html">Upiši se!</a></p>
+			<p><a href="cjenik.html">Cjenik</a></p>	
+			</article>
+					
+			</main>
+			<!--grid primary katalog-page/end-->	
+	
+	
+
+		<footer class="page-footer">
+			<p>Seminarski rad za POU Algebra-Web dizajn. &copy; 2021.</p>
+			<div class="social">  
+				<a href="https://www.facebook.com/"  target="blank"> 
+					<img alt="facebook logo" src="slike/doodle/facebook.png"> 
+				</a>
+				<a href="https://www.instagram.com/"  target="blank"> 
+					<img alt="instagram logo" src="slike/doodle/instagram.png"> </a>
+				<a href="mailto:anitapetrovic23@gmail.com"><img src="slike/doodle/mail.png" alt="email logo"></a>
+
+				
+			</div>
+		</footer>
+		</div>
+		<!--.grid page-container/end-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	
+	<script>
+		$(".nav-btn").click(function(){
+			$(".site-navigation ul").slideToggle();
+		});
+	</script>
+	<script>
+		$(".btn2").click(function(){
+			$(".usluge ul").slideToggle();
+		});
+	</script>
+	</body>
+
+
+</html>
